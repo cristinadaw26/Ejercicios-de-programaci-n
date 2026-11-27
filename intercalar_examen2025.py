@@ -12,6 +12,8 @@ Ejemplo:
 [1,2,3,4,6]
 """
 
-def intercalar(a: list, b: list) -> list:
-    n =  min(len(a), len(b))
-    return list
+res[]
+n = min(len(a), len(b))
+i = 0
+while i < n:
+    
