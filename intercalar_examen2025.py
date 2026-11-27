@@ -12,8 +12,14 @@ Ejemplo:
 [1,2,3,4,6]
 """
 
-res[]
-n = min(len(a), len(b))
-i = 0
-while i < n:
-    
+def inercalar(a: list, b: list) -> list
+    res = []
+    n = min(len(a), len(b))
+    i = 0
+    while i < n:
+        res.append(a[i])
+        res.append(b[i])
+        i += 1
+    res += a[i:]
+    res += b[i:]
+    return res    
