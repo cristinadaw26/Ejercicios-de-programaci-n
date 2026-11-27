@@ -27,16 +27,7 @@ def colapsar(lista: list[tuple[Any, int]]) -> list[Any]:
     return res
 
     def compresion_simple(lista: listy[int]) -> list[tuple[int, int]]:
-        """
-        Comprime los elementos repetidos de una lista de enteros.
-
-        Devuelve una lista donde las repeticiones consecutivas son sustituidas por las tupla de la forma (valor, cantidad)
-
-        >>> compresion_simple([1,1,1,2,2,1,3])
-        [(1,3),(2,2),(1,1),(3,1)]
-        >>> compresion_simple([])
-        []
-        """
+       
         i = 0
         while i < len(lista):
             elem = lista[i]
