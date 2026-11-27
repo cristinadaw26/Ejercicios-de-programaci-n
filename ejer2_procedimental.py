@@ -19,3 +19,14 @@ def diagonal(n: int) -> None:
     while i <= n:
         print(' ' * i + '*', sep='')
         i += 1
+
+
+def arbol(n: int) -> None:
+    """Imprime un árbol con la altura indicada."""
+    anchura = 2 * n - 1
+    i = 0
+    while i < n:
+        cant_ast = 2 * i - 1
+        print(('*' * i).center(anchura))
+        i += 1
+    print('*'.center(anchura, '-'))
