@@ -1,2 +1,2 @@
 # Ejercicios-de-programacion
-*Aquí estarán todos los ejericicios *
+*Aquí estarán todos los ejericicios*
